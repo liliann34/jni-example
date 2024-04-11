@@ -12,7 +12,16 @@ extern "C" {
  * Method:    hi
  * Signature: ()V
  */
-JNIEXPORT void JNICALL Java_com_test_Test_hi(JNIEnv *, jobject);
+JNIEXPORT void JNICALL Java_com_test_Test_hi
+  (JNIEnv *, jobject);
+
+/*
+ * Class:     com_test_Test
+ * Method:    dummyTask
+ * Signature: ()Lcom/task/Task;
+ */
+JNIEXPORT jobject JNICALL Java_com_test_Test_dummyTask
+  (JNIEnv *, jobject);
 
 #ifdef __cplusplus
 }
