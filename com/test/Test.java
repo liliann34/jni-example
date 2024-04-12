@@ -1,6 +1,7 @@
 package com.test;
 
 import com.task.Task;
+import java.util.ArrayList;
 
 public class Test {
 	static {
@@ -13,8 +14,10 @@ public class Test {
 		Task tsk = t.dummyTask();
 
 		System.out.println(tsk.getDesc());
+		System.out.println(t.dummyTasks());
 	}
 
 	private native void hi();
 	private native Task dummyTask();
+	private native ArrayList<Task> dummyTasks();
 }

@@ -23,6 +23,14 @@ JNIEXPORT void JNICALL Java_com_test_Test_hi
 JNIEXPORT jobject JNICALL Java_com_test_Test_dummyTask
   (JNIEnv *, jobject);
 
+/*
+ * Class:     com_test_Test
+ * Method:    dummyTasks
+ * Signature: ()Ljava/util/ArrayList;
+ */
+JNIEXPORT jobject JNICALL Java_com_test_Test_dummyTasks
+  (JNIEnv *, jobject);
+
 #ifdef __cplusplus
 }
 #endif
