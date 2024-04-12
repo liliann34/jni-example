@@ -12,3 +12,6 @@ There is a Makefile in there with the following targets:
 3. make utilitary
 4. Unix environment (I tested in WSL2)
 5. have the JAVA_HOME environment variable set up correctly
+
+### Updating the header file when native interface changes
+`javah com.test.Test`
